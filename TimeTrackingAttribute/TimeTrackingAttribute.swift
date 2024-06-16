@@ -11,7 +11,7 @@ struct TimeTrackingAttribute : ActivityAttributes{
     public typealias TimeTrackingStatus = ContentState
     public struct ContentState: Codable, Hashable {
         var startTime: Date
-        
+        var steps: Int = 0
     }
 
 }

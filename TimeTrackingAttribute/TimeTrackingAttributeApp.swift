@@ -11,7 +11,12 @@ import SwiftUI
 struct TimeTrackingAttributeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if let defaults = UserDefaults(suiteName: "group.TimeTrackingAttribute"){
+                ContentView()
+            }
+            else{
+                Text("Hello")
+                }
         }
     }
 }

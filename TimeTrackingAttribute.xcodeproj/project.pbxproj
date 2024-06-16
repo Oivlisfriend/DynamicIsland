@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022601902BFD7242000F27C1 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226018F2BFD7242000F27C1 /* ContentModel.swift */; };
+		022601922BFD726A000F27C1 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022601912BFD726A000F27C1 /* ContentViewModel.swift */; };
 		0268E7E62BF40D510039C296 /* TimeTrackingAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7E52BF40D510039C296 /* TimeTrackingAttribute.swift */; };
 		0268E7EF2BF42C040039C296 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0268E7EE2BF42C040039C296 /* WidgetKit.framework */; };
 		0268E7F12BF42C040039C296 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0268E7F02BF42C040039C296 /* SwiftUI.framework */; };
-		0268E7F42BF42C040039C296 /* Tutorial_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7F32BF42C040039C296 /* Tutorial_WidgetBundle.swift */; };
-		0268E7F62BF42C040039C296 /* Tutorial_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7F52BF42C040039C296 /* Tutorial_Widget.swift */; };
 		0268E7F82BF42C0A0039C296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0268E7F72BF42C0A0039C296 /* Assets.xcassets */; };
 		0268E7FC2BF42C0A0039C296 /* Tutorial_WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0268E7EC2BF42C040039C296 /* Tutorial_WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0268E8012BF42E4E0039C296 /* TimeTrackingAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7E52BF40D510039C296 /* TimeTrackingAttribute.swift */; };
-		0268E8052BF448EE0039C296 /* Tutorial_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7F52BF42C040039C296 /* Tutorial_Widget.swift */; };
-		0296A9DF2BF2C3550060E229 /* TimeTrackingAttributeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0296A9DE2BF2C3550060E229 /* TimeTrackingAttributeApp.swift */; };
+		0275E0702BFEC322006BC604 /* Tutorial_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7F52BF42C040039C296 /* Tutorial_Widget.swift */; };
+		0275E0722BFEC3A1006BC604 /* Tutorial_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7F32BF42C040039C296 /* Tutorial_WidgetBundle.swift */; };
+		0275E0762BFEC516006BC604 /* TimeTrackingAttributeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0296A9DE2BF2C3550060E229 /* TimeTrackingAttributeApp.swift */; };
+		0275E0772BFEC91C006BC604 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022601912BFD726A000F27C1 /* ContentViewModel.swift */; };
+		0275E0782BFEC929006BC604 /* Tutorial_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268E7F52BF42C040039C296 /* Tutorial_Widget.swift */; };
 		0296A9E12BF2C3550060E229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0296A9E02BF2C3550060E229 /* ContentView.swift */; };
 		0296A9E32BF2C35A0060E229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0296A9E22BF2C35A0060E229 /* Assets.xcassets */; };
 		0296A9E62BF2C35A0060E229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0296A9E52BF2C35A0060E229 /* Preview Assets.xcassets */; };
@@ -64,6 +67,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0226018F2BFD7242000F27C1 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		022601912BFD726A000F27C1 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		023B2ACA2C012F6100BD98CA /* TimeTrackingAttribute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeTrackingAttribute.entitlements; sourceTree = "<group>"; };
+		023B2ACB2C0130A200BD98CA /* Tutorial_WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tutorial_WidgetExtension.entitlements; sourceTree = "<group>"; };
 		0268E7E52BF40D510039C296 /* TimeTrackingAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackingAttribute.swift; sourceTree = "<group>"; };
 		0268E7E72BF429FA0039C296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0268E7EC2BF42C040039C296 /* Tutorial_WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tutorial_WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +126,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0226018C2BFD70E9000F27C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0296A9E02BF2C3550060E229 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0226018D2BFD70F5000F27C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				022601912BFD726A000F27C1 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0226018E2BFD7141000F27C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0226018F2BFD7242000F27C1 /* ContentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0268E7ED2BF42C040039C296 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +173,7 @@
 		0296A9D22BF2C3550060E229 = {
 			isa = PBXGroup;
 			children = (
+				023B2ACB2C0130A200BD98CA /* Tutorial_WidgetExtension.entitlements */,
 				0296A9DD2BF2C3550060E229 /* TimeTrackingAttribute */,
 				0296A9EE2BF2C35B0060E229 /* TimeTrackingAttributeTests */,
 				0296A9F82BF2C35B0060E229 /* TimeTrackingAttributeUITests */,
@@ -165,10 +197,13 @@
 		0296A9DD2BF2C3550060E229 /* TimeTrackingAttribute */ = {
 			isa = PBXGroup;
 			children = (
-				0268E7E72BF429FA0039C296 /* Info.plist */,
+				023B2ACA2C012F6100BD98CA /* TimeTrackingAttribute.entitlements */,
 				0268E7E52BF40D510039C296 /* TimeTrackingAttribute.swift */,
+				0226018E2BFD7141000F27C1 /* Model */,
+				0226018D2BFD70F5000F27C1 /* ViewModel */,
+				0226018C2BFD70E9000F27C1 /* View */,
+				0268E7E72BF429FA0039C296 /* Info.plist */,
 				0296A9DE2BF2C3550060E229 /* TimeTrackingAttributeApp.swift */,
-				0296A9E02BF2C3550060E229 /* ContentView.swift */,
 				0296A9E22BF2C35A0060E229 /* Assets.xcassets */,
 				0296A9E42BF2C35A0060E229 /* Preview Content */,
 			);
@@ -361,9 +396,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0275E0772BFEC91C006BC604 /* ContentViewModel.swift in Sources */,
 				0268E8012BF42E4E0039C296 /* TimeTrackingAttribute.swift in Sources */,
-				0268E7F42BF42C040039C296 /* Tutorial_WidgetBundle.swift in Sources */,
-				0268E7F62BF42C040039C296 /* Tutorial_Widget.swift in Sources */,
+				0275E0702BFEC322006BC604 /* Tutorial_Widget.swift in Sources */,
+				0275E0722BFEC3A1006BC604 /* Tutorial_WidgetBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,9 +408,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0268E7E62BF40D510039C296 /* TimeTrackingAttribute.swift in Sources */,
+				0275E0762BFEC516006BC604 /* TimeTrackingAttributeApp.swift in Sources */,
 				0296A9E12BF2C3550060E229 /* ContentView.swift in Sources */,
-				0296A9DF2BF2C3550060E229 /* TimeTrackingAttributeApp.swift in Sources */,
-				0268E8052BF448EE0039C296 /* Tutorial_Widget.swift in Sources */,
+				0275E0782BFEC929006BC604 /* Tutorial_Widget.swift in Sources */,
+				022601922BFD726A000F27C1 /* ContentViewModel.swift in Sources */,
+				022601902BFD7242000F27C1 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,8 +459,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Tutorial_WidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5596Y787V7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tutorial_Widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Tutorial_Widget;
@@ -435,6 +476,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "d.TimeTrackingAttribute.Tutorial-Widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -447,8 +489,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Tutorial_WidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5596Y787V7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tutorial_Widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Tutorial_Widget;
@@ -461,6 +506,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "d.TimeTrackingAttribute.Tutorial-Widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -593,9 +639,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeTrackingAttribute/TimeTrackingAttribute.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimeTrackingAttribute/Preview Content\"";
+				DEVELOPMENT_TEAM = 5596Y787V7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TimeTrackingAttribute/Info.plist;
@@ -624,9 +672,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeTrackingAttribute/TimeTrackingAttribute.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TimeTrackingAttribute/Preview Content\"";
+				DEVELOPMENT_TEAM = 5596Y787V7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TimeTrackingAttribute/Info.plist;
